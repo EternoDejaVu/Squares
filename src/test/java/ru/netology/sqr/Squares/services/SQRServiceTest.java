@@ -7,11 +7,11 @@ import org.junit.jupiter.api.Test;
 public class SQRServiceTest {
 
     @Test
-    public void accountCalc16() {
+    public void countSquares() {
         SQRService service = new SQRService();
 
-        int expected = 0;
-        int actual = service.calcSQRT(10, 99);
+        int expected = 5;
+        int actual = service.calcSQRT(300, 500);
 
         Assertions.assertEquals(expected, actual);
     }
