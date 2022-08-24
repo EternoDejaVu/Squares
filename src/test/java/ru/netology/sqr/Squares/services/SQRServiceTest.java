@@ -10,7 +10,7 @@ public class SQRServiceTest {
     public void accountCalc16() {
         SQRService service = new SQRService();
 
-        int expected = 6;
+        int expected = 0;
         int actual = service.calcSQRT(10, 99);
 
         Assertions.assertEquals(expected, actual);
